@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: #151719;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+    font-size: 60px;
+}
+
+.waviy span {
+    font-family: 'Ruluko', cursive;
+    position: relative;
+    display: inline-block;
+    color: #6667AB;
+    text-transform: uppercase;
+    animation: waviy 1.5s infinite;
+    animation-delay: calc(.1s * var(--i));
+
+}
+
+@keyframes waviy {
+
+    0%,
+    40%,
+    100% {
+        transform: translateY(0)
+    }
+
+    20% {
+        transform: translateY(-20px)
+    }
+}
+
+/* ============================================================================
+CARDS
+============================================================================ */
+body {
+    margin-top: 20px;
+    background: #FAFAFA;
+}
+
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg, #373b44, #4286f4);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+}
+
+.bg-c-orange {
+    background: linear-gradient(45deg, #ff9966, #ff5e62);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg, #3a1c71, #d76d77, #ffaf7b);
+}
+
+.bg-c-violet {
+    background: linear-gradient(45deg, #4776e6, #8e54e9);
+}
+
+.bg-c-red {
+    background: linear-gradient(45deg, #870000, #190a05);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+
+/* =========================================================================
+TIMELINE
+========================================================================= */
