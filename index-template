@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Soeun Park Portfolio</title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- ANIMATION -->
+    <link href="assets/css/animation.css" rel="stylesheet" />
+    <!-- SCSS FILE -->
+    <link href="assets/css/styleSecond.css" rel="stylesheet" />
+    <!-- GOOGLE FONT -->
+    <link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <!-- CARD LINK -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home"><i class="fa fa-gamepad "></i> {{name}}</a>
+                <a class="navbar-brand" href={{langAdress}}><i class="fa fa-quote-left "></i> {{lang}}</a>
+            </div>
+            <!-- Collect the nav links for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a>
+                    </li>
+                    <li><a href="#about">ABOUT</a>
+                    </li>
+                    <li><a href="#projects">PROJECTS</a>
+                    </li>
+                    <li><a href="#education">EDUCATION</a>
+                    </li>
+                    <li><a href="#contact">CONTACT</a>
+                    </li>
+                    <li><a href="#"><strong>e-mail:</strong> baksoeun01@gmail.com</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!--End Navigation -->
+
+
+    <!--Header section  -->
+    <div class="container" id="home">
+        <div class="row text-center ">
+            <div class="col-md-3 head-main ">
+                <a href="#home"><i class="fa fa-home color-blue "></i></a>
+                <h3> <a href="#home">HOME</a></h3>
+            </div>
+
+            <div class="col-md-3 head-main">
+                <a href="#about"><i class="fa fa-comment-o color-blue "></i></a>
+                <h3> <a href="#about">ABOUT</a></h3>
+            </div>
+
+            <div class="col-md-3 head-main">
+                <a href="#projects"> <i class="fa fa-files-o color-blue"></i> </a>
+                <h3> <a href="#projects">PROJECTS</a></h3>
+            </div>
+
+            <div class="col-md-3 head-main">
+                <a href="#contact"><i class="fa fa-mobile-phone color-blue fa-lg"></i></a>
+                <h3> <a href="#contact">CONTACT</a></h3>
+            </div>
+        </div>
+    </div>
+    <!--End Header section  -->
+
+
+    <!--About Section-->
+    <section class="for-full-back color-light " id="about">
+        <div class="container">
+
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <h1>
+                        <span id="greeting"> </span>
+                        <div class="waviy">
+                            <span style="--i:1">S</span>
+                            <span style="--i:2">O</span>
+                            <span style="--i:3">E</span>
+                            <span style="--i:4">U</span>
+                            <span style="--i:5">N</span>
+                            <span style="--i:6"></span>
+                            <span style="--i:7">P</span>
+                            <span style="--i:8">A</span>
+                            <span style="--i:9">R</span>
+                            <span style="--i:10">K</span>
+                        </div>
+
+                        <h4>
+                            <strong>
+                                {{pageIntro}}
+                            </strong>
+                        </h4>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2>
+                        {{introduce}}
+                    </h2>
+
+                    <div class="google-map w-100">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.283490905923!2d-117.88767822289488!3d33.88235202667956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd5ce8cc61391%3A0x2b9810bbb94af355!2sCalifornia%20State%20University%2C%20Fullerton!5e0!3m2!1sen!2skr!4v1686536897459!5m2!1sen!2skr"
+                            width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+                    <div>
+                        <p style="font-size: 18px;">
+                            </br>{{selfIntro}}
+                    </div>
+                    <a href="https://docs.google.com/document/d/110xwxAdh__x3ISmmMIvHm9_yqPiGC1wNg_hTa4tPzR8/edit?usp=sharing"
+                        class="btn btn-default btn-lg">{{resume}} <i class="fa fa-download"></i> </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row text-center space-pad">
+                <div class="col-md-3 ">
+
+                    <div class="about-div">
+                        <img src="assets/pics/cplus.png" width="100" heigh="100">
+                        <h3>C/C++ </h3>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+
+                    <div class="about-div">
+                        <img src="assets/pics/jsIcon.png" width="100" heigh="100">
+                        <h3>JavaScript </h3>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+
+                    <div class="about-div">
+                        <img src="assets/pics/vhdlIcon.png" width="100" heigh="100">
+                        <h3>VHDL </h3>
+                    </div>
+
+                </div>
+                <div class="col-md-3 ">
+
+                    <div class="about-div">
+                        <img src="assets/pics/asmIcon.png" width="100" heigh="100">
+                        <h3>{{asm}}</h3>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tools">
+                <div class="language-header">
+                    <h2>{{langSkill}}</h2>
+                </div>
+
+                <div class="tools-progres">
+                    <div class="progres">
+                        <div class="language-subheader">
+                            <p style="font-size: 18px" ;> {{kor}} 100%</p>
+                        </div>
+                        <div class="prog">
+                            <span class="bg-lnir" style="width: 100%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="progres">
+                        <div class="language-subheader">
+                            <p style="font-size: 18px" ;> {{eng}} 85%</p>
+                        </div>
+                        <div class="prog">
+                            <span class="bg-lnir" style="width: 85%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="progres">
+                        <div class="language-subheader">
+                            <p style="font-size: 18px" ;> {{jap}} 55%</p>
+                        </div>
+                        <div class="prog">
+                            <span class="bg-lnir" style="width: 55%;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+
+    <!--End About Section-->
+
+    <!-- Project Section-->
+    <section class="for-full-back color-white" id="projects">
+        <div class="container">
+
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>{{proj}}</h1>
+                    <h4>
+                        <strong> {{projDetail}}
+                        </strong>
+                    </h4>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <a href="https://mapleguider.tistory.com/6">
+                    <div class="row">
+                        <div class="col-md-4 col-xl-3">
+                            <div class="card bg-c-blue order-card">
+                                <div class="card-block">
+                                    <h6 class="m-b-20">{{firstProj}} </h6>
+                                    <h2 class="text-right"><i class="fa fa-sort-numeric-asc f-left"></i><span>C++</span>
+                                    </h2>
+                                    <p class="m-b-0">2023-01-01<span class="f-right">01</span></p>
+                                </div>
+                            </div>
+                        </div>
+                </a>
+
+                <div class="col-md-4 col-xl-3">
+                    <div class="card bg-c-green order-card">
+                        <div class="card-block">
+                            <h6 class="m-b-20">{{secondProj}} </h6>
+                            <h2 class="text-right"><i class="fa fa-minus-square f-left"></i><span>000</span></h2>
+                            <p class="m-b-0">2099-11-11<span class="f-right">000</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xl-3">
+                    <div class="card bg-c-orange order-card">
+                        <div class="card-block">
+                            <h6 class="m-b-20">{{thirdProj}}</h6>
+                            <h2 class="text-right"><i class="fa fa-minus-square f-left"></i><span>000</span></h2>
+                            <p class="m-b-0">2099-11-11<span class="f-right">000</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xl-3">
+                    <div class="card bg-c-pink order-card">
+                        <div class="card-block">
+                            <h6 class="m-b-20">{{fourthProj}}</h6>
+                            <h2 class="text-right"><i class="fa fa-minus-square f-left"></i><span>000</span></h2>
+                            <p class="m-b-0">2099-11-11<span class="f-right">000</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xl-3">
+                    <div class="card bg-c-violet order-card">
+                        <div class="card-block">
+                            <h6 class="m-b-20">{{fifthProj}}</h6>
+                            <h2 class="text-right"><i class="fa fa-minus-square f-left"></i><span>000</span></h2>
+                            <p class="m-b-0">2099-11-11<span class="f-right">000</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xl-3">
+                    <div class="card bg-c-red order-card">
+                        <div class="card-block">
+                            <h6 class="m-b-20">{{sixthProj}}</h6>
+                            <h2 class="text-right"><i class="fa fa-minus-square f-left"></i><span>000</span></h2>
+                            <p class="m-b-0">2099-11-11<span class="f-right">000</span></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--End Services Section-->
+
+
+
+    <!-- Education Timeline Section -->
+
+    <section class="for-full-back color-light " id="education">
+        <div class="container">
+            <h2>{{timeline}}</h2>
+            <div class="timeline">
+
+                <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+                    <div class="timeline__event__icon ">
+                        <i class="lni-cake"></i>
+                    </div>
+
+                    <div class="timeline__event__date">
+                        2011-2014
+                    </div>
+
+                    <div class="timeline__event__content ">
+                        <div class="timeline__event__title">
+                            {{firstTime}}
+                        </div>
+
+                        <div class="timeline__event__description">
+                            <p>{{firstTimeDetail}} </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+                    <div class="timeline__event__icon">
+                        <i class="lni-burger"></i>
+                    </div>
+
+                    <div class="timeline__event__date">
+                        2017-2018
+                    </div>
+
+                    <div class="timeline__event__content">
+                        <div class="timeline__event__title">
+                            {{secondTime}}
+                        </div>
+
+                        <div class="timeline__event__description">
+                            <p>
+                                {{secondTimeDetail}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+                    <div class="timeline__event__icon">
+                        <i class="lni-slim"></i>
+
+                    </div>
+                    <div class="timeline__event__date">
+                        2018-2020
+                    </div>
+                    <div class="timeline__event__content">
+                        <div class="timeline__event__title">
+                            {{thirdTime}}
+                        </div>
+                        <div class="timeline__event__description">
+                            <p>
+                                {{thirdTimeDetail}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="timeline__event animated fadeInUp timeline__event--type1">
+                    <div class="timeline__event__icon">
+                        <i class="lni-cake"></i>
+                    </div>
+
+                    <div class="timeline__event__date">
+                        2020-Now
+                    </div>
+
+                    <div class="timeline__event__content">
+                        <div class="timeline__event__title">
+                            {{fourthTime}}
+                        </div>
+
+                        <div class="timeline__event__description">
+                            <p>
+                                {{fourthTimeDetail}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Education Timeline Section -->
+
+    <!-- Contact Section -->
+    <section class="for-full-back color-white " id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>
+                        {{contactHeader}}
+                    </h1>
+                    <h4>
+                        <strong>
+                            {{contactDetail}}
+                        </strong>
+                    </h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row text-center contact-cls">
+                    <h3>
+                        {{contactSubHeader}}
+                    </h3>
+                    <div>
+                        <span><i class="fa fa-home"></i>&nbsp;{{address}} </span>
+                        <br />
+                        <span><i class="fa fa-phone"></i>&nbsp;{{phone}} </span>
+                        <br />
+                        <span><i class="fa fa-envelope-o"></i>&nbsp;{{email}} </span><br />
+                        <span><i class="fa fa-globe"></i>&nbsp;{{web}} </span>
+                        <br />
+                        <a href="https://drive.google.com/file/d/1M_ogYvLkfQTQ0-HZss3FImaXmOG8wo1A/view?usp=sharing"
+                            class="btn btn-default ">{{resume}} <i class="fa fa-download"></i> </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--End Contact Section -->
+
+
+
+    <!--footer Section -->
+    <div class="for-full-back " id="footer">
+        2023 Made by Soeun Park | All Right Reserved
+    </div>
+    <!--End footer Section -->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="assets/plugins/bootstrap.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+    <!-- TO JS -->
+    <script src="index.js" defer>    </script>
+
+
+
+</body>
+
+</html>
