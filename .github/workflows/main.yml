@@ -34,7 +34,7 @@ jobs:
           path: '.'   
       - run: mkdir dist
       - run: cp index*.html ./dist
-      - run: ls -la
+      - run: ls -la ./dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
